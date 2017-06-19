@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    min-width: 700px;
+}
+p, label  {
+    font-family:arial;
+    font-size:16px;
+}
+.header {
+    position: relative;
+    background: #080808;
+    border-bottom: 1px solid #38383d;
+    padding: 20px;
+}
+.wrapper {
+    float: left;
+    width: 100%;
+    min-height: 600px;
+    background:url('/images/menubg.png') repeat-y left;
+}
+.main {
+    margin:  0 0 0 220px;
+}
+.content {
+    padding:20px;
+}
+.infoblock {
+    background: #caeece;
+    width: 100%;
+}
+.errorblock {
+    background: #eecace;
+    width: 100%;
+}
+.contentinfoblock {
+    padding: 20px;
+}
+.content p {
+    margin: 0 0 10px;
+}
+.menu {
+    float: left;
+    width: 220px;
+    margin-left: -100%;
+    background: #1c2b36;
+}
+.menucontent {
+    padding: 0px;
+}
+.menucontent li {
+    list-style: none;
+    color: #fff;
+    border-top: none;
+    border-bottom: 1px solid transparent;
+}
+.menucontent li:hover {
+    background: #080808;
+}
+.menucontent a {
+    display:block;
+    padding: 15px 10px 14px 20px;
+    line-height: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-family:arial;
+}
+.footer {
+    clear: left;
+    width: 100%;
+    background: #1c2b36;
+    color: #fff;
+    border-top: 1px solid #38383d;
+}
+.footercontent {
+    padding:20px;
+}
+.title {
+    font-weight: 200;
+    font-size: 35px;
+    color: #fff;
+}
+
+h1 {
+    font-family: arial;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.editform {
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 4px;
+    width: 80%;
+    min-width: 450px;
+    height: 40px;
+    outline: none;
+    border: 1px solid #dcdcdc;
+    vertical-align: top;
+    font-size: 14px;
+}
+
+.editor {
+    height: 220px;
+}
+
+.editbutton {
+    display: block;
+    height: 36px;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: arial;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border: 0;
+    border-radius: 3px;
+    background: rgb(64,199,129);
+    box-shadow: 0 -3px rgb(53,167,110) inset;
+    transition: 0.2s;
+    vertical-align: middle;
+    text-decoration: none;
+    overflow: visible;
+    padding: 0 13px;
+    line-height: 36px;
+    float: left;
+    margin: 10px 10px 10px 0;
+}
+
+.ml20 {
+    margin-left: 10px;
+}
+
+.editbutton:hover {
+    background: rgb(53, 167, 110);
+    cursor: pointer;
+}
+
+.editbutton:active  {
+    background: rgb(33,147,90);
+    box-shadow: 0 3px rgb(33,147,90) inset;
+}
+
+/*
+.editbutton {
+    display: block;
+    background: #a1a1a1;
+    margin-top: 20px;
+    padding: 0 13px;
+    height: 32px;
+    border-radius: 3px;
+    font-size: 16px;
+    line-height: 30px;
+    vertical-align: middle;
+    overflow: visible;
+    color: #222;
+    text-decoration: none;
+    float:left;
+}
+
+.editbutton:hover {
+    cursor: pointer;
+}
+*/
+.img {
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+
+.maintable {
+    width:94%;
+	border:1px solid #999;
+    margin-bottom: 50px;
+    font-family: arial;
+    font-size: 15px;
+}
+
+.maintable td {
+	border:1px solid #999;
+    padding: 3px;
+}
+
+.maintable h3 {
+    font-family: arial;
+    font-size: 15px;
+    text-align: right;
+    margin: 0;
+}
+.maintable p {
+    margin: 0;
+}
+
+.collumtitle {
+    width: 170px;
+}
+
+.imgservise {
+    width: 300px;
+}
