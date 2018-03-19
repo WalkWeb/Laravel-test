@@ -26,7 +26,6 @@ Route::group(['middleweare' => 'web'], function() {
 
     // Авторизация
     Route::auth();
-
 });
 
 // Закрытая часть (админка)
@@ -43,7 +42,5 @@ Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function() {
         Route::match(['get', 'post'], '/add', ['uses' => 'Auth\AdminPagesAddController@execute', 'as' => 'pagesAdd']);
 
         Route::match(['get', 'post', 'delete'], '/edit/{page}', ['uses' => 'Auth\AdminPagesEditController@execute', 'as' => 'pagesEdit']);
-
     });
-
 });
